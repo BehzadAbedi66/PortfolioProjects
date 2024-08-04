@@ -3,10 +3,6 @@ From coviddeaths
 Where continent is not null  --To filter out the aggregated locations (data cleaning)
 Order By 3, 4
 
---Select *
---From covidvaccinations
---Order By 3, 4
-
 -- Select Data that we are going to be using
 
 Select location, date, total_cases, new_cases, total_deaths, population
